@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: regular;
+    src: url(../fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+    font-family: Semibold;
+    src: url(../fonts/FiraGO-SemiBold.ttf);
+}
+body{
+    background-color:rgba(0, 0, 0, 1)
+}
+        /* >>>>>>>>>HEADER>>>>>>>> */
+header h1 a{
+    margin-top: 38px;
+    margin-left: 60px;
+    margin-right: 746px;
+    float: left;
+    font-size: 20px;
+    font-family: regular;
+    color: rgba(231, 231, 231, 1)     
+}
+header nav ul li a{
+    float: left;
+    margin-top: 42px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: Semibold;
+    color: rgba(231, 231, 231, 1)
+}
+header{
+    height: 100px;
+    border-bottom: 1px solid rgba(195, 195, 195, 1);
+}
+       /* >>>>>>>>>>>MAIN>>>>>>>>>> */
+h2{
+    margin: 38px 66px;
+    font-size: 128px;
+    letter-spacing: 100px;
+    font-family: regular;
+    color: rgba(255, 255, 255, 1)
+}
+p{
+    font-size: 20px;
+    font-family: regular;
+    color: rgba(255, 255, 255, 1);
+}
+.erti{
+    width: 296px;
+    height: 48px;
+    margin-top: 184px;
+    margin-left: 60px;
+    float: left
+
+}
+.ori{
+    width: 116px;
+    height: 48px;
+    margin-top: 182px;
+    margin-left: 132px;
+    float: left;
+}
+.sami{
+    width: 558px;
+    height: 238px;
+    margin-top: 150px;
+    margin-right: 38px;
+    margin-left: 148px;
+    float: left;
+}
+.br{
+    display: block;
+    margin-top: 1em;
+}
+.xazi{
+    width: 100%; 
+    height: 1px;
+    margin-top: 834px;
+    background-color: rgba(195, 195, 195, 1);
+}
+.werilebi{
+    width: 100%;
+    padding: 50px 10px;
+}
+article{
+    width: 432px;
+    height: 628px;
+    float: left;
+    /* margin-right: 14px; */
+}
+article p a{
+    font-size: 20px;
+    font-family: regular;
+    color: rgba(255, 255, 255, 1);
+}  
+.werilebi article div img{
+    width: 100%;
+    height: 628px;
+    margin-top: 20px;
+}
+.shua{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+/* >>>>>>>>>footer style>>>>>> */
+
+footer{
+    clear: both;
+}
+
+
+.last{
+    width: 100%; 
+    height: 1px;
+    margin-top: 700px;
+    background-color: rgba(195, 195, 195, 1); 
+}
+.kitx{
+    float: left;
+    margin: 50px 16px 50px 112px;
+}
+.cool{
+    font-size: 35px;
+}
+.happy{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
